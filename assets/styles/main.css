@@ -5,8 +5,6 @@
 
 body {
     font-family: Roboto-Regular, sans-serif;
-    display: flex;
-    justify-content: center;
     line-height: 1.42;
     background: #f5f6f8;
     padding: 0;
@@ -78,10 +76,30 @@ a {
     justify-content: space-between;
 }
 
+.current-stream {
+    justify-content: center;
+}
+
 .links-list {
     display: flex;
     justify-content: space-between;
 }
+@media (max-width : 500px) {
+    .links-list {
+        display: block;
+    }
+    .video-highlights {
+        margin: 0;
+        display: block;
+    }
+    .video-highlights iframe:nth-child(odd) {
+        display: none;
+    }
+    iframe {
+        max-width: 100%;
+    }
+}
+
 
 .links-list-item {
     display: flex;
