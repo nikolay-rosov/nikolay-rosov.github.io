@@ -68,6 +68,7 @@ a {
 .block-with-image {
     display: flex;
     justify-content: left;
+    overflow: hidden;
 }
 
 .video-highlights {
