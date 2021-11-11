@@ -73,6 +73,15 @@ a {
     overflow: hidden;
     position: relative;
 }
+.auction {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 22px;
+}
+.auction iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
 
 #___ytsubscribe_0 {
     position: absolute;
