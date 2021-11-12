@@ -51,6 +51,10 @@ a {
     padding-bottom: 22px;
 }
 
+nav a {
+    margin-right: 5px;
+}
+
 .main-content {
     padding: 0 22px;
 }
